@@ -3,3 +3,6 @@
 
 #### 컴파일
 - coffee --compile [파일명.coffee]
+
+#### 자동 컴파일
+- coffee --compile --watch ./
