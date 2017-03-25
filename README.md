@@ -6,3 +6,6 @@
 
 #### 자동 컴파일
 - coffee --compile --watch ./
+
+#### 커피스크립트 콘솔에서 실행
+- coffee 
