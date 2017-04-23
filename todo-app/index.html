@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo App</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8">    
+
+  </head>
+  <body>
+
+    <div class="container">
+
+      <p>
+        <label for="new-task">할일 등록</label>
+        <input id="new-task" type="text">
+        <button>등록</button>
+      </p>
+      
+      <h3>할일 목록</h3>
+
+      <ul id="incomplete-tasks">
+        <li>
+          <input type="checkbox">
+          <label>밥먹기</label>
+          <input type="text">
+          <button class="edit">수정</button>
+          <button class="delete">삭제</button>
+        </li>
+
+        <li class="editMode">
+          <input type="checkbox">
+          <label>투도앱 만들기</label>
+          <input type="text" value="커피 투토앱 만들기">
+          <button class="edit">수정</button>
+          <button class="delete">삭제</button>
+        </li>
+
+      </ul>
+      
+      <h3>이미 한일</h3>
+
+      <ul id="completed-tasks">
+        
+        <li>
+          <input type="checkbox" checked>
+          <label>커피 투도앱 클론받기</label>
+          <input type="text">
+          <button class="edit">수정</button>
+          <button class="delete">삭제</button>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <script type="text/javascript" src="src/index.js"></script>
+
+  </body>
+</html>
